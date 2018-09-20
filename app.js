@@ -1,8 +1,8 @@
-document.getElementById('button1'),addEventListener('click', getText);
+document.getElementById('button1').addEventListener('click', getText);
 
-document.getElementById('button2'),addEventListener('click', getJson);
+document.getElementById('button2').addEventListener('click', getJson);
 
-document.getElementById('button3'),addEventListener('click', getExternal);
+document.getElementById('button3').addEventListener('click', getExternal);
 
 // Get Local text file data
 function getText() {
